@@ -6,7 +6,7 @@ class Rowman < Formula
   version "1.0.0"
   license "MIT"
   option "without-completions", "Disable bash completions"
-  depends on "bash-completion@2" => :optional
+  depends_on "bash-completion@2" => :optional
 
   def install
     bin.install "rowman"
